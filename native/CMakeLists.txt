@@ -20,6 +20,8 @@ endif()
 
 add_library(RendererNative SHARED
     src/RendererNative.cpp
+    src/Renderer.cpp
+    src/RendererBackend.cpp
     src/OpenGLBackend.cpp
     src/VulkanBackend.cpp
     src/D3D11Backend.cpp
