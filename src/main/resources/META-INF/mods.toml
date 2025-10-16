@@ -1,0 +1,19 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="renderbridge"
+version="1.0.0"
+displayName="Render Bridge Mod"
+authors="dongge0210"
+description='''
+多后端渲染桥接Mod，支持OpenGL/D3D11/Vulkan渲染后端。
+'''
+
+[[dependencies.renderbridge]]
+modId="forge"
+mandatory=true
+versionRange="[47.2.0,)"
+ordering="NONE"
+side="BOTH"
